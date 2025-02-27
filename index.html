@@ -9,7 +9,7 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #e0f7fa; /* Celeste */
         }
         .container {
             width: 100%;
@@ -21,11 +21,12 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         .header {
-            background-color: #4CAF50;
-            color: #ffffff;
+            background-color: #5c6bc0; /* Azul */
+            color: #000000; /* Letra negra */
             padding: 15px;
             text-align: center;
             font-size: 24px;
+            border-radius: 5px;
         }
         .content {
             margin: 20px 0;
@@ -34,13 +35,14 @@
         }
         .button {
             display: inline-block;
-            background-color: #4CAF50;
+            background-color: #9c27b0; /* Morado */
             color: white;
-            padding: 10px 20px;
-            font-size: 16px;
+            padding: 12px 24px;
+            font-size: 18px;
             text-decoration: none;
             border-radius: 5px;
-            margin-top: 10px;
+            margin-top: 20px;
+            text-align: center;
         }
         .footer {
             text-align: center;
@@ -48,22 +50,44 @@
             color: #777777;
             margin-top: 20px;
         }
+        .qr-container {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .qr-image {
+            width: 150px;
+            height: 150px;
+            margin-top: 20px;
+        }
+        .qr-text {
+            font-size: 14px;
+            margin-top: 10px;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="header">
-            ¡Hola, [Nombre]!
+            Nuestro compromiso contigo
         </div>
         <div class="content">
-            <p>Queríamos agradecerte por tu interés en nuestros productos. ¡Estamos emocionados de poder ofrecerte lo mejor!</p>
-            <p>Aquí te dejamos un botón para que puedas ver más detalles:</p>
-            <a href="https://www.ejemplo.com" class="button">Ver Más</a>
+            <p>Nuestra Directora Ejecutiva [Nombre] ha enviado recientemente un mensaje a nuestra comunidad para reflexionar sobre los desafíos que enfrentamos en el periodismo independiente. A medida que el entorno mediático evoluciona, las y los periodistas continúan enfrentando amenazas crecientes a su seguridad y estabilidad.</p>
+            <p>Mantenemos firme nuestro compromiso: siempre habrá una oportunidad para ti en Prensa Comunitaria. Queremos que conozcas más sobre nuestras convocatorias abiertas y los programas que impulsamos para fortalecer el periodismo comunitario.</p>
+            <p>En esta época de reflexión y gratitud, queremos agradecer especialmente a quienes nos apoyan, colaboran y hacen posible nuestro trabajo. Si está dentro de tus posibilidades, considera hacer una contribución para garantizar que en 2025 sigamos informando con independencia y compromiso con la verdad.</p>
+            
+            <!-- Botón de enlace -->
+            <a href="https://prensacomunitaria.org/" class="button">Haz tu donación aquí</a>
+            
+            <!-- QR -->
+            <div class="qr-container">
+                <p class="qr-text">Escanea el código QR para donar</p>
+                <img src="https://i.postimg.cc/YqN4y17R/asdadsdfs-2.png" alt="QR de donación" class="qr-image">
+            </div>
         </div>
         <div class="footer">
-            <p>Si tienes alguna pregunta, no dudes en responder a este correo.</p>
+            <p>Si tienes alguna pregunta o deseas saber más, no dudes en responder a este correo.</p>
             <p>Gracias,</p>
-            <p>El Equipo de Ejemplo</p>
+            <p>El Equipo de Prensa Comunitaria</p>
         </div>
     </div>
 </body>
