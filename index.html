@@ -1,215 +1,70 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Historia del Derecho Internacional Público</title>
-  <style>
-    /* Reset básico */
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-      font-family: 'Arial', sans-serif;
-    }
-    
-    body {
-      background: #f0f4f8;
-      color: #333;
-      line-height: 1.6;
-      padding: 20px;
-    }
-    
-    .container {
-      max-width: 800px;
-      margin: 40px auto;
-      padding: 20px;
-      background: #fff;
-      border-radius: 8px;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    }
-    
-    h1 {
-      text-align: center;
-      margin-bottom: 20px;
-      color: #2a9d8f;
-    }
-    
-    h2 {
-      margin: 10px 0;
-      color: #264653;
-    }
-    
-    p, li {
-      margin: 10px 0;
-    }
-    
-    ul {
-      list-style: disc;
-      margin-left: 20px;
-    }
-    
-    .accordion {
-      border-top: 1px solid #ddd;
-    }
-    
-    .accordion-item {
-      border-bottom: 1px solid #ddd;
-      padding: 10px 0;
-    }
-    
-    .accordion-header {
-      cursor: pointer;
-      padding: 10px;
-      background: #e9f5f2;
-      border-radius: 4px;
-      transition: background 0.3s ease;
-    }
-    
-    .accordion-header:hover {
-      background: #d0e8e2;
-    }
-    
-    .accordion-content {
-      padding: 10px;
-      display: none;
-    }
-    
-    .accordion-content.active {
-      display: block;
-    }
-    
-    a.toggle-btn {
-      color: #2a9d8f;
-      text-decoration: none;
-      font-weight: bold;
-      cursor: pointer;
-    }
-    
-    a.toggle-btn:hover {
-      text-decoration: underline;
-    }
-    
-    footer {
-      text-align: center;
-      margin-top: 20px;
-      font-size: 0.9em;
-      color: #666;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Correo de Ejemplo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 100%;
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            background-color: #4CAF50;
+            color: #ffffff;
+            padding: 15px;
+            text-align: center;
+            font-size: 24px;
+        }
+        .content {
+            margin: 20px 0;
+            font-size: 16px;
+            color: #333333;
+        }
+        .button {
+            display: inline-block;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .footer {
+            text-align: center;
+            font-size: 12px;
+            color: #777777;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
-  <div class="container">
-    <h1>Historia del Derecho Internacional Público</h1>
-    <p>El derecho internacional público se ha ido armando con el tiempo, influenciado por hechos históricos que han moldeado cómo los países se relacionan entre sí. Básicamente, es un conjunto de reglas que establecen qué pueden y qué no pueden hacer los Estados, con validez en ciertos momentos, para ciertas personas y en determinados temas.</p>
-    
-    <!-- Sección: Orígenes -->
-    <div class="accordion">
-      <div class="accordion-item">
-        <div class="accordion-header" onclick="toggleAccordion(this)">
-          <h2>¿Cómo empezó todo esto?</h2>
+    <div class="container">
+        <div class="header">
+            ¡Hola, [Nombre]!
         </div>
-        <div class="accordion-content">
-          <p>Después de que cayó el Imperio Romano, Europa se convirtió en un campo de batalla entre señores feudales y, más tarde, entre grandes imperios. El desorden era tremendo, y los conflictos religiosos empeoraban la cosa, especialmente en la Guerra de los Treinta Años, que dejó a Europa hecha un desastre.</p>
-          <a class="toggle-btn" onclick="event.stopPropagation(); toggleAccordion(this.closest('.accordion-header'));">Ocultar</a>
+        <div class="content">
+            <p>Queríamos agradecerte por tu interés en nuestros productos. ¡Estamos emocionados de poder ofrecerte lo mejor!</p>
+            <p>Aquí te dejamos un botón para que puedas ver más detalles:</p>
+            <a href="https://www.ejemplo.com" class="button">Ver Más</a>
         </div>
-      </div>
+        <div class="footer">
+            <p>Si tienes alguna pregunta, no dudes en responder a este correo.</p>
+            <p>Gracias,</p>
+            <p>El Equipo de Ejemplo</p>
+        </div>
     </div>
-    
-    <!-- Sección: La Paz de Westfalia -->
-    <div class="accordion">
-      <div class="accordion-item">
-        <div class="accordion-header" onclick="toggleAccordion(this)">
-          <h2>La Paz de Westfalia (1648): el inicio de las reglas del juego</h2>
-        </div>
-        <div class="accordion-content">
-          <p>Aquí se establecieron algunas reglas clave:</p>
-          <ul>
-            <li>Cada Estado es independiente y manda en su territorio. Nadie puede meterse en los asuntos de otro.</li>
-            <li>Las normas entre países se crean, cambian y eliminan solo si los Estados están de acuerdo.</li>
-            <li>Estas reglas dependen de lo que quieran hacer los gobiernos.</li>
-          </ul>
-          <p>Si un país incumple, se pueden aplicar medidas como:</p>
-          <ul>
-            <li><strong>Retorsión:</strong> Respuestas legales pero incómodas (por ejemplo, quitar acuerdos comerciales o romper relaciones diplomáticas).</li>
-            <li><strong>Represalias:</strong> Medidas más fuertes, incluso algunas ilegales en circunstancias normales.</li>
-            <li>Si no funcionan, puede derivar en conflictos o incluso guerra.</li>
-          </ul>
-          <a class="toggle-btn" onclick="event.stopPropagation(); toggleAccordion(this.closest('.accordion-header'));">Ocultar</a>
-        </div>
-      </div>
-    </div>
-    
-    <!-- Sección: Guerras y nuevas reglas -->
-    <div class="accordion">
-      <div class="accordion-item">
-        <div class="accordion-header" onclick="toggleAccordion(this)">
-          <h2>Las guerras y la necesidad de nuevas reglas</h2>
-        </div>
-        <div class="accordion-content">
-          <p>La Primera Guerra Mundial (1914-1918) fue un caos total y dejó claro que había que regular las guerras. De ahí nació el derecho internacional de la guerra, que básicamente pone pausa al derecho de paz durante los conflictos.</p>
-          <p>El Tratado de Versalles (1919) terminó la guerra y creó la Sociedad de Naciones, un intento de hacer que los países trabajaran juntos para evitar futuras confrontaciones, aunque en la práctica tuvo resultados limitados.</p>
-          <a class="toggle-btn" onclick="event.stopPropagation(); toggleAccordion(this.closest('.accordion-header'));">Ocultar</a>
-        </div>
-      </div>
-    </div>
-    
-    <!-- Sección: La ONU -->
-    <div class="accordion">
-      <div class="accordion-item">
-        <div class="accordion-header" onclick="toggleAccordion(this)">
-          <h2>La ONU: un nuevo intento de poner orden</h2>
-        </div>
-        <div class="accordion-content">
-          <p>Durante la Segunda Guerra Mundial, se evidenció el fracaso de la Sociedad de Naciones, lo que llevó en 1945 a la creación de la Organización de las Naciones Unidas (ONU) con el objetivo de:</p>
-          <ul>
-            <li>Mantener la paz.</li>
-            <li>Resolver conflictos sin violencia.</li>
-            <li>Fomentar la cooperación entre países.</li>
-          </ul>
-          <p>La ONU puede tomar decisiones colectivas para frenar guerras o problemas graves. Sus normas se dividen en:</p>
-          <ul>
-            <li><strong>De coordinación:</strong> Para fomentar el trabajo conjunto entre países.</li>
-            <li><strong>De cuasi subordinación:</strong> Normas que protegen valores esenciales, como la dignidad humana y la paz (ius cogens).</li>
-          </ul>
-          <a class="toggle-btn" onclick="event.stopPropagation(); toggleAccordion(this.closest('.accordion-header'));">Ocultar</a>
-        </div>
-      </div>
-    </div>
-    
-    <!-- Sección: Principios de la ONU -->
-    <div class="accordion">
-      <div class="accordion-item">
-        <div class="accordion-header" onclick="toggleAccordion(this)">
-          <h2>Los principios de la ONU</h2>
-        </div>
-        <div class="accordion-content">
-          <p>Los países miembros de la ONU deben seguir ciertos principios recogidos en el artículo 2 de su Carta, los cuales, aunque a veces se incumplen, teóricamente sirven de base para mantener el orden global y evitar el caos.</p>
-          <a class="toggle-btn" onclick="event.stopPropagation(); toggleAccordion(this.closest('.accordion-header'));">Ocultar</a>
-        </div>
-      </div>
-    </div>
-    
-    <!-- Pie de página con el nombre y matrícula -->
-    <footer>
-      <p>Creado por: Rodrigo Porres - 19001048</p>
-    </footer>
-  </div>
-  
-  <script>
-    // Función para mostrar/ocultar el contenido del acordeón
-    function toggleAccordion(header) {
-      var content = header.nextElementSibling;
-      if (content.classList.contains('active')) {
-        content.classList.remove('active');
-      } else {
-        // Cierra todos los contenidos abiertos
-        document.querySelectorAll('.accordion-content').forEach(function(item) {
-          item.classList.remove('active');
-        });
-        content.classList.add('active');
-      }
-    }
-  </script>
 </body>
 </html>
